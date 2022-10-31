@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(urleiffel-tower-at-night-vzpwdc2ygcdu3qzn-vzpwdc2ygcdu3qzn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+        .banner {
+
+        font-family: 'Abyssinica SIL',serif;
+    
+        }
+        .navbar{
+            display: flex;
+            font-size: 17px;
+            color: white;
+           
+        }
+        .logo{
+          
+            margin: 0 25px;
+        }
+h1{
+   margin: 19px;
+   color: white;
+}
+       
+.navbar ul{
+          
+           margin: 30px 0 0 446px;
+          
+        }
+       .navbar ul li {
+            display: inline-block;
+          padding: 0 9px;
+          position: relative;
+      
+        }
+        .navbar ul li a{
+text-decoration: none;
+color: #df773c;
+        }
+
+        .navbar ul li::after{
+            content: '';
+          height: 1px;
+          width: 0;
+          background:  #df773c;
+
+          position: absolute;
+          left: 0;
+          bottom: -10px;
+     transition: 0.3s;
+
+        }
+        .navbar ul li:hover::after{
+            width: 100%;
+        }
+.container{
+    font-family: 'Abyssinica SIL',serif;
+}
+p{
+    color: #df773c;
+    margin: 0 10px;
+}
+.tab{
+display: inline-block;
+}
+.tabel{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abyssinica SIL',serif;
+    color: #df773c;
+
+
+}
+.size{
+padding: 0 220px;
+}
+
+.img{
+    text-align: end;
+  padding: 78px 0;
+    
+}
+.tabel2{
+    color: #df773c;
+    font-family: 'Abyssinica SIL',serif;
+
+}
+.vid{
+    text-align: end;
+}
+.box3{
+    color: #df773c;
+  
+
+}
+
+.audio{
+    text-align: end;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="banner">
+
+        <div class="navbar">
+          
+         <a href="https://www.iul.ac.in/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Integral_University%2C_Lucknow_logo.png"
+                class="logo"  height="90px"> </a>  
+           <h1 class="box3">Integral University </h1>
+                    <ul>
+                        
+                        <li><a href="https://www.iul.ac.in/About/Overview/Overview.aspx" target="_blank">About</a></li>
+                        <li><a href="https://iul.ac.in/Department/Engineering.aspx" target="_blank">Faculties</a></li>
+                        
+                        <li><a href="https://iul.ac.in/admissioninfo/FeeInd.aspx" target="_blank">Program</a></li>
+                        <li><a href="https://www.iul.ac.in/Contactus.aspx" target="_blank">Contact Us</a></li>
+            
+                    </ul>
+       
+               
+        </div>
+    </div>
+<hr>
+ 
+    <div class="container">
+    
+         <h1>Department of Computer Application</h1>
+       
+
+        <div class="box">
+            <p>The Computer Applications program is designed to provide the skills needed in the use of application
+                software
+                on a computer. Applications covered include word processing, spreadsheets, databases, desktop
+                publishing,
+                the Internet, and the Windows operating systems. Courses will provide the student skills to work in
+                various
+                office settings.</p>
+           
+                <h1>Knowledge and Skills</h1>
+            
+            <p>Skills and knowledge gained in the program include the ability to:</p>
+
+            <div class="list">
+             
+                 <p> Produce business documents such as letters memos, tables, and reports utilizing keyboarding,
+                        proofreading and editing techniques.</p>
+
+                        <p>Use word processing software to produce documents applying business formatting including
+                        features and functions.</p>
+                        <p>Create, edit and print spreadsheet documents</p>
+                        <p>Create, edit, and print database files.</p>
+                        <p>Use and apply software to produce professional business presentations.</p>
+
+               
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+ 
+     <div class="tabel">
+   <div class="tab"> <h1> TIME Table(BCA-3, Group-A)</h1></div>
+    <table border="1" cellspacing="0" align="center">
+        <tr>
+            <td align="center" height="50"
+                width="100"><br>
+                <b></b></br>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>I<br>9:00-9:50</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>II<br>9:50-10:40</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>III<br>10:40-11:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>11:30-12:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>IV<br>12:20-1:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>V<br>1:30-2:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VI<br>2:20-3:10</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VII<br>3:10-4:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-307</td>
+            <td rowspan="6" align="center" height="50">
+                <h2>L<br>U<br>N<br>C<br>H</h2>
+            </td>
+            <td colspan="" align="center"
+                height="50"></td>
+                <td colspan="2" align="center"
+                height="50">CA-312
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td  align="center"
+                height="50">CA-307
+            </td>
+            <td colspan="3" align="center" height="50">CA-310</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-301</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50">PPP(APTI)</td>
+            <td align="center" height="50"></td>
+            <td  align="center" height="50"> </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-304</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"></td>
+            <td  align="center" height="50">301</td>
+            <td align="center" height="50">PPP(SOFT SKILL)</td>
+            <td align="center" height="50"></td>
+            
+            
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+            <td colspan="3" align="center"
+                height="50">CA-311/CA-310
+            </td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50"></td>
+            <td colspan="2" align="center" height="50">CA-312</td>
+           
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Saturday</b>
+            </td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50"></td>
+           
+            </td>
+            
+        </tr>
+       
+</table>
+
+</div>
+<br>
+<br>
+
+<hr>
+
+<div class="img"> 
+  <a href="https://library.iul.ac.in/" target="_blank" >  <img src="https://wallpaperaccess.com/full/3847372.jpg" alt="book" width="1000px" height="450px">
+  </a>
+    </div><hr>
+
+    <div class="tabel2">
+   <h1 class="size">Infrastructure</h1>
+<table border="1"  cellspacing="0" align="center"  cellpadding="20px 10px 20px 10px">
+
+ <tr>
+           
+            <td align="center" height="50"
+                width="100">
+                <b><br>ROOM</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b><br>NAME</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b><br>AREA</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b><br>CAPACITY</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b><br>CONFIGURATION</b>
+            </td>
+           
+        </tr>
+
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-1</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>	Web Development Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>860 Sq.Ft.</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>C2D/320 GB/18.5 TFT/ HP 3090 PC/Operating System-UBUNTU</b>
+    </td>
+       
+        </tr>
+
+
+        
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-2</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>Project Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>860 Sq.Ft.</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>C2D/320 GB/18.5 TFT/ HP 3090 PC/Operating System-UBUNTU</b>
+    </td>
+       
+        </tr>
+
+
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-3</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>Graphics & Multimedia Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>1020 Sq.Ft.</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>I5/500GB/DVDRW/18.5 TFT/HP3330PC/ Operating System-Windows 8</b>
+    </td>
+       
+        </tr>
+
+
+
+        
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-4</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>Database Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>910 Sq.Ft.</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>I5/500GB/DVDRW/18.5 TFT/HP3330PC/ Operating System-Windows 8</b>
+    </td>
+       
+        </tr>
+
+
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-5</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>	Open Source Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>890 Sq.Ft.</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>I5/500GB/DVDRW/18.5 TFT/HP3330PC/ Operating System-Windows 8</b>
+    </td>
+       
+        </tr>
+
+
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-6</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>	Programming Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>1280 Sq.Ft.b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>C2D/32GB/2GB/18.5 TFT/DVDRW/ Operating System-UBUNTU</b>
+    </td>
+       
+        </tr>
+        
+
+
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>CA-7</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>	Programming Lab</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>1200 Sq.Ft.b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>30 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>I5/500GB/DVDRW/18.5 TFT/HP3330PC/ Operating System-Windows 8</b>
+    </td>
+       
+        </tr>
+
+
+        <tr>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>Smart Class Room</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>SEMINAR/PRESENTATION</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>	138.89 Sq.Ft.</b>b
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b><br>90 Students</b>
+        </td>
+        <td align="center" height="50"
+        width="100">
+        <b><br>	Projector, Computer System, UPS, Mike, Fan, AC, Chair, Table, Podium</b>
+    </td>
+       
+        </tr>
+        
+  
+</table>
+</div>
+<br>
+<hr>
+<br>
+<div class="vid">
+<iframe src="https://drive.google.com/file/d/1pYVeQY6-tKTVwGj0vxBLaPZQZHWtHydo/preview" width="1000px" height="450px" allow="autoplay"></iframe>
+</div>
+<br>
+<hr>
+<br>
+<div class="audio">
+    <iframe src="https://drive.google.com/file/d/15Y_x6H2289wRMXhh0xEbBzdY2sXt_Hv3/preview" width="1002px" height="100px" allow="autoplay"></iframe>
+</div>
+</body>
+
+</html>
